@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Camera, X, AlertCircle } from "lucide-react";
+import { Html5Qrcode } from "html5-qrcode";
 
 function ScannerModal({ isOpen, onClose }) {
   const videoRef = useRef(null);
